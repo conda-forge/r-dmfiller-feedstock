@@ -16,13 +16,8 @@ build:
   rpaths:
     - lib/R/lib/
     - lib/
-  skip: true
-
+  
 requirements:
-  build:
-    - r-base
-    - r-devtools
-    - r-roxygen2
   host:
     - r-base
     - r-ncdf4
